@@ -1,0 +1,112 @@
+.container {
+    padding: 20px;
+}
+
+.wrap {
+    margin-bottom: 50px;
+}
+
+.barbtn {
+    float: right;
+}
+
+.content {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.para {
+    font-size: 2rem;
+}
+
+.hr {
+    width: 96% !important;
+    margin-left: 1%;
+    background-color: #000000;
+}
+
+.list {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+}
+
+.lists {
+    border: 1px solid #000000;
+    padding: 8px 8px;
+    border-radius: 5rem;
+    cursor: pointer;
+}
+
+.active {
+    border: 1px solid #000000;
+    padding: 8px 8px;
+    border-radius: 5rem;
+    cursor: pointer;
+    background-color: #000000;
+    color: #fff;
+}
+
+.lists:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+.line {
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.total {
+    margin-left: 1rem;
+}
+
+.apply {
+    font-size: 1.7rem;
+    margin-top: 3rem;
+    margin-left: 22rem;
+}
+
+.btn {
+    padding: 0 10px 0 10px;
+    margin-right: 22px;
+    background: transparent;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+.icon {
+    position: relative;
+    bottom: 2px;
+    right: 3px;
+}
+
+@media screen and (max-width:450px) {
+    .list {
+        align-items: center;
+        text-align: center;
+        overflow-x: scroll;
+        padding-left: 25rem;
+        gap: 1rem;
+    }
+
+    .lists {
+        border: 1px solid #000000;
+        border-radius: 5rem;
+    }
+
+    .lists:hover {
+        background-color: #000000;
+        color: #fff;
+    }
+
+
+    .apply {
+        font-size: 1.7rem;
+        margin-left: 18rem;
+
+    }
+}
