@@ -1,6 +1,6 @@
 import './App.css';
 import Page from './Page'
-// import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import { Login } from './Login'
 import { Route, Routes } from 'react-router-dom'

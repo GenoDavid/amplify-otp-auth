@@ -50,7 +50,9 @@ export const Login = () => {
                             <p>OTP Entered -{otp}</p>
                             <p>
 
-                                <button className={`${classes.btn, 'btn-secondary'}`}>
+                                <button
+                                    onClick={() => setOtp(new Array(4).fill(''))}
+                                    className={`${classes.btn, 'btn-secondary'}`}>
                                     Clear
                                 </button>
                                 <Link to={'/home'}><button
