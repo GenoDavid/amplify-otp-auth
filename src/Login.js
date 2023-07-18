@@ -46,10 +46,8 @@ export const Login = () => {
                                 })
                             }
                             {/* <OtpInput></OtpInput> */}
-
                             <p>OTP Entered -{otp}</p>
                             <p>
-
                                 <button
                                     onClick={() => setOtp(new Array(4).fill(''))}
                                     className={`${classes.btn, 'btn-secondary'}`}>
